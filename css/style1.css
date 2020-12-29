@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(245, 245, 245);
+    padding: 150px;
+}
+
+img#shigan {
+    width: 100px;
+    height: 100px;
+}
+
+#board {/*要注意网页语言都是解释性语言，都是一条一条代码去执行，并默认从上往下、从左往右对内容进行排列*/
+    border: 1px solid rgb(151, 104, 104);
+    border-radius: 3px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;/*由于主轴竖直，这个表示块级元素均位于水平轴的中央*/
+    justify-content: space-around;/*表示块级元素在竖直方向上等间距对齐*/
+    padding: 10px;
+    width: 400px;
+    height: 360px;
+    margin: auto;
+}
+
+strong {
+    font-size: 30px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+    padding: 20px;
+}
+
+input {
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding-left: 25px;
+    height: 20px;
+}
+
+input:focus {
+    box-shadow: 0px 0 4px #23BFF9;
+}
+
+.button {
+    background-color: rgb(43, 135, 255);
+    color: white;
+    border-radius: 2px;
+    width: 170px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: #2e6da4;
+}
+
+
+

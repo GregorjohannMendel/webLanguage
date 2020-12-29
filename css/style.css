@@ -1,0 +1,121 @@
+
+    * {
+      box-sizing: border-box;     /*层叠样表不能用style*/
+    }
+     
+    body {
+      font-family: Arial;
+      padding: 10px;
+      background: #5c8683;
+    }
+    video{
+      width: 100%;
+    }
+     
+    /* 头部标题 */
+    .header {
+      padding: 30px;
+      text-align: center;
+      background: white;
+    
+    }
+     
+    .header h1 {
+      font-size: 50px;
+    }
+     
+    /* 导航条 */
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+     
+    /* 导航条链接 */
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: blink;
+    }
+    .topnav a:link{
+      color: rgb(4, 0, 255);
+    } 
+    .topnav a:visited{
+      color: rgb(58, 223, 25);
+    }
+    .topnav a:hover{
+      color: burlywood;
+    }
+    /* 链接颜色修改 */
+    .topnav a:active {
+     /*可加背景色制造背景*/
+      color: rgb(240, 0, 0);
+      text-decoration: blink;
+    }
+    .column{
+      float: left;
+      padding: 10px;
+    }
+    .column.left{
+      width:20%;
+    }  
+    .column.middle{
+        width: 60%;
+    }
+    ul.a{
+      list-style-image: url('../photo/images/user.png');
+    }
+    ul.b{
+      list-style-image:url('../photo/images/redpoint.png')
+    }
+    ul.c{
+      list-style-image: url('../photo/images/loveSuperman.png');
+    }
+
+   
+    .column.right{
+      width: 20%;
+      text-align: justify;
+    }
+    
+   
+   
+     
+    /* 图像部分 */
+    .fakeimg {
+      background-color: #aaa;
+    
+    }
+     
+    /* 文章卡片效果 */
+    .card {
+      background-color: white;
+      padding: 20px;
+      margin-top: 20px;
+    }
+     
+    /* 列后面清除浮动 */
+    .row{
+      content:"";
+      display: table;
+      clear: left;
+    }
+     
+    /* 底部 */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: rgb(190, 189, 189);
+      margin-top: 20px;
+    }
+     
+    /* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+    @media screen and (max-width: 400px) {
+      .topnav a {
+        float: none;
+        width: 100%;
+      }
+    } 
+   
+    

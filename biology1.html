@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewoort" content="width=device-width,initial-scale=1.0">
+<meta charset="utf-8">
+<title>shigan.com</title>
+<script src="javascript/dynamicControl.js" type="text/javascript" defer></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head><!--defer 延迟：加载顺序在html之后-->
+<body>
+
+  <div class="header" style="background-image: url(photo/DNA.jpeg);background-size:cover;">
+    <h1><font size="6" color="red">21世纪是以生命科学为基础的多学科交叉的世纪</font></h1>
+    <p><em><strong>在推动现代生命科学发展的进程中成为一名不容忽视的生物学家</em></strong></p>
+    
+  </div>
+
+  <div class="topnav">
+    <abbr title="阅读书籍"><a href="biology2.html">链接</a></abbr>
+    <abbr title="人生规划"><a href="biology3.html">链接</a></abbr>
+    <abbr title="实验室心法"><a href="biology4.html">链接</a></abbr>
+    <a href="https://www.runoob.com/try/demo_source/www.runoob.com/html/html-tutorial.htl" style="float:right">
+    <img src="photo/OIP.jpg" width="32" height="32">
+    </a>
+  </div>
+
+  <div class="row">
+    <div class="column left">
+      <div class="card">
+        <h2>关于我</h2>
+        <div class="fakeimg" >
+          <img src="photo/lsg.jpg" style="height:70%; width:100%;"/>
+        </div>
+      </div>
+      
+        
+        
+      <div class="card"style="height:1145px">
+        <ul class="b">
+          <li><h5>一张美图</h5></li>
+          <hr/>
+            <div class="fakeming;" >
+              <img src="photo/guangZhi.jpg" style="width: 100%;">
+            </div>
+          
+          <li><h5>一只沙雕</h5></li>
+          <hr/>
+            <div class="fakeming" >
+              <img src="photo/zhaoDan.jpg"style="width: 100%; ">
+            </div>
+          <li><h5>一个骚包</h5></li>
+          <hr/>
+            <div class="fakeming">
+              <img src="photo/zhuChangbin.jpg" style="width: 100%;">
+            </div>
+        </ul>
+        <pre style="color:rgb(239, 241, 241)">
+          广智砂
+          赵丹寸
+          长斌杓
+        </pre>
+                  <!--要对照片进行大小规定，仅对宽度做修改即可，若未规定则浏览器会默认为原大小--><!--height width 若用%表示都是以上一个块级元素为标准进行定位大小的-->
+      </div>
+      <div class="card">
+        <h2>少年</h2>
+        <p style="color: rgb(21, 117, 117) ;text-indent:30px;">
+        故今日之责任，不在他人，而全在我少年。少年智则国智，少年富则国富；少年强则国强，少年独立则国独立；少年自由则国自由；少年进步则国进步；少年胜于欧洲则国胜于欧洲 
+        ；少年雄于地球，则国雄于地球。
+        </p>
+        <p style="color: rgb(21, 117, 117);text-indent: 30px;">         
+        红日初升，其道大光。河出伏流，一泻汪洋。潜龙腾渊，鳞爪飞扬。乳虎啸谷，百兽震惶。鹰隼试翼，风尘翕张。奇花初胎，矞矞
+        皇皇。干将发硎，有作其芒。天戴其苍，地履其黄。
+        </p>
+        <p style="color: rgb(21, 117, 117);text-indent: 30px;">
+        纵有千古，横有八荒。前途似海，来日方长。美哉我少年中国，与天不老！壮哉我中国少年，与国无疆！
+        </p>      
+      </div>
+      <div class="card" style="height: 560px;" >
+        <h2>高三11班</h2>
+        <video width="100%" height="80%" controls>
+          <source src="video/我的记忆1.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      
+    </div>
+    <div class="column middle">
+      <div class="card">
+        <h2>学习链接荟萃</h2>
+        <button onclick="displaydate()">
+          点这里出现日期
+        </button>
+        <p id="date"></p> 
+        <div class="fakeimg" style="height:540px;"><!--就是改变图片大小有点麻烦-->
+          <a href="http://i.mooc.chaoxing.com/" style="text-decoration: none;">南昌大学</a>
+          <hr/>
+          <a href="https://www.runoob.com/">菜鸟编程</a>
+          <hr/>
+          <a href="http://listen.51learning.com.cn/">大学英语听力训练</a>
+          <hr/>
+          <a href="http://reading.51learning.com.cn:8080/">51llearning阅读文库</a>
+          <hr/>
+          <a href="http://wyjx.ncu.edu.cn/">南昌大学外语教学音视频网</a>
+          <hr/>
+          <a href="https://edition.cnn.com/">CNN</a>
+          <hr/>
+          <a href="https://www.uniprot.org/">UniPort</a>
+          <hr/>
+          <a href="http://genome.ucsc.edu/">UCSC</a>
+          <hr/>
+          <a href="http://lilab.research.bcm.edu/cpat/">CPAT</a>
+          <hr/>
+          <a href="http://cpc2.cbi.pku.edu.cn/">CPC</a>
+          <hr/>
+          <a href="https://www.kaoshibao.com/online/search/?keyword=word&type=2">试题通</a>     
+        </div>
+        
+        <p></p>
+      </div>
+      <div class="card">
+        <h2>读文献</h2>
+        <pre><font size="4" color="red">
+          第一阶段：判断这篇论文值不值得读
+
+          <abbr title="推测这篇论文的大致主题和内容，以此判断自己是否感兴趣或者是否需要，如果答案是“否”，那就舍弃这篇论文">1)读标题和关键词</abbr>
+          <abbr title="摘要会说明论文的基本内容、方法特色、主要贡献，是整篇论文内容的浓缩，非常重要。多数论文看摘要，少数论文看全文">2）读摘要</abbr>
+          <abbr title="跳过前言、实验方法等部分，直接看作者得出的结论，如果结论和你不是很相关，同样地舍弃这篇论文">3）看结论</abbr>
+          
+          第二阶段：读论文
+          
+          <abbr title="数据是最不会说谎的，这是论文中最原汁原味的东西。在看实验细节之前，先花点时间看下图表和数据。除非造假！">1）读图表和数据</abbr>
+          
+          <abbr title="引言的功能是介绍研究的背景，以及在这个背景下这篇论文想解决的问题和它的重要性。
+
+          如果你对研究的课题还不太熟悉，那就先搜集几十篇和自己课题相关的论文，先不读正文的实验部分，只读摘要和引言，快速了解这个领域以前研究的概况">2）读引言</abbr>
+          
+          <abbr title="结果和讨论是论文的核心，值得花费大部分时间来阅读">读结果和讨论</abbr>
+          <abbr title="这是论文中最晦涩难读的部分，所以要放在最后。当你看完其他内容，认为这篇论文有足够的价值后，再去读这部分。这部分需要仔细阅读，了解作者究竟做了哪些工作，怎么做的，阅读速度肯定要慢下来，花更多时间">读实验部分</abbr>
+          第三阶段：做笔记
+          
+          <abbr title="严格按照计划行事，不负韶华，不负期望！">好笔记的标准：下次看笔记内容即可，无须重读这篇论文</abbr>
+        
+        </font>
+        </pre>
+        
+      </div>
+      <div class="card">
+        <h2>世界</h2>
+        <div class="fakeimg" style="height:235px">
+          <img src="photo/gaokao.jpg" style="height: 100%;width: 50%"/>
+          <img src="photo/gaokao2.jpg" style="height: 100%;width: 49.4%"/><!--中间背景相距父元素框架0.6%-->
+          
+        </div>
+        <p>生如夏花之绚烂，死如秋叶之静美</p><!--相对路径，不用谢代码文件所在位置，即只需写目标对象名称就可以了。但若在文件夹中创立了子对象，则需把子对象的名称写上去。记得加分隔符-->
+        <p>要好好感受这世界</p>
+        <ul class="a">
+          <li><h3>人生信念</h3></li>
+        </ul>
+        <ul class="c">
+          <li><p>孟德尔揭示遗传基本规律的过程表明，任何一项科学研究成果的取得，不仅需要坚韧的意志和持之以恒的探索精神，还需要严谨求实的科学态度和正确的研究方法</p></li>
+          <li><p>大学之道，既贵专精，尤贵宏通</p></li>
+          <li><p>哲为神，敏为赋，体为康！</p></li>
+          <li><p>充分利用好现有资源，切忌好高骛远！初心作为前进方向！</p></li>
+          <li><abbr title="尽管受尽嘲笑，也曾因为无明显实际意义而忘记便以为再也没事么用了。但那些努力的过程都会化作精神鼓励着我们一直前行" style="text-decoration: none;">那些已经逝去的曾今为之努力的过程永远不会消失，而是会成为我们心中最坚硬的地方</abbr>
+          <li><p>人活一世总有最求，求的便是<abbr title="不留遗憾，奋斗现在，追求未来" style="text-decoration: none;">以往、现在、未来的融合!</abbr></p></li>
+          <bdo dir="rtl">
+          </bdo><!--改变文字方向--> 
+          <h3>生活信念</h3>
+          <li><abbr title="追求未来" style="text-decoration: none;" >生命的意义在于生活，生活的意义在于愉悦、温馨、忘我、感动、鼻子一酸、满足  ……
+            所有的一切要求我们不要过于强迫，作为情感型生活必然要求经济上不能过于窘迫，现在奋斗的一切都是为了追星
+            生命的意义。有时候不开心了，叫上一人就出去逛逛街，想买什么就买些什么，想玩些什么就玩些什么！</abbr></p></li>
+          <h2>
+            永攀个人知识理解高峰是一种极大乐趣，而厚实基础则决定了你到达高度的极限。
+          </h2>
+        </ul>  
+        <video width="100%" height="100%" controls>
+          <source src="video/dream.mp4" type="video/mp4">
+        </video>
+        
+        
+        
+      </div> 
+      
+    
+    
+      
+    </div>
+  
+      
+    <div class="column right">
+      
+      <div class="card">
+        <h3>基因工程大事记</h3>
+        <ul class="b">
+          <p>
+            <li>1866年，奥地利遗传学家孟德尔神父根据豌豆杂交实验发现生物的遗传基因规律，提出遗传因子概念，并总结出孟德尔遗传定律。</li>
+            <br/>
+            <li>1868年，瑞士生物学家弗里德里希发现细胞核内存有酸性和蛋白质两个部分。酸性部分就是后来的所谓的DNA；</li>
+            <br/>
+            <li>1882年，德国胚胎学家瓦尔特弗莱明在研究蝾螈细胞时发现细胞核内的包含有大量的分裂的线状物体，也就是后来的染色体；</li>
+            <br/>
+            <li>1909年丹麦植物学家和遗传学家约翰逊首次提出“基因”这一名词，用以表达孟德尔的遗传因子概念。</li>
+            <br/>
+            <li>1944年 3位美国科学家分离出细菌的DNA（脱氧核糖核酸），并发现DNA是携带生命遗传物质的分子。</li>
+            <br/>
+            <li>1953年，美国生化学家沃森和英国物理学家克里克宣布他们发现了DNA的双螺旋结构，奠下了基因工程的基础；</li>
+            <br/>
+            <li>1969年 科学家成功分离出第一个基因。</li>
+            <br/>
+            <li>1980年 科学家首次培育出世界第一个转基因动物转基因小鼠。</li>
+            <br/>
+            <li>1983年 科学家首次培育出世界第一个转基因植物转基因烟草。</li>
+            <br/>
+            <li>1988年 K.Mullis发明了PCR技术。</li>
+            <br/>
+            <li>1990年10月 被誉为生命科学“阿波罗登月计划”的国际人类基因组计划启动。</li>
+            <br/>
+            <li>1994年中科院曾邦哲提出转基因禽类金蛋计划和“输卵管生物反应器（oviduct bioreactor）”以及“系统遗传学（system genetics）”等概念、原理、名词和方法等。</li>
+            <br/>
+            <li>1996年，第一只克隆羊诞生；</li>
+            <br/>
+            <li>1998年 一批科学家在美国罗克威尔组建塞莱拉遗传公司，与国际人类基因组计划展开竞争。</li>
+            <br/>
+            <li>1998年12月 一种小线虫完整基因组序列的测定工作宣告完成，这是科学家第一次绘出多细胞动物的基因组图谱。</li>
+            <br/>
+            <li>1999年9月 中国获准加入人类基因组计划，负责测定人类基因组全部序列的1%。中国是继美、英、日、德、法之后第6个国际人类基因组计划参与国，也是参与这一计划的惟一发展中国家。</li>
+            <br/>
+            <li>1999年12月1日国际人类基因组计划联合研究小组宣布，完整破译出人体第22对染色体的遗传密码，这是人类首次成功地完成人体染色体完整基因序列的测定。</li>
+            <br/>
+            <li>2000年4月6日美国塞莱拉公司宣布破译出一名实验者的完整遗传密码，但遭到不少科学家的质疑。</li>
+            <br/>
+            <li>2000年4月底 中国科学家按照国际人类基因组计划的部署，完成了1%人类基因组的工作框架图。</li>
+            <br/>
+            <li>2000年5月8日 德、日等国科学家宣布，已基本完成了人体第21对染色体的测序工作。</li>
+            <br/>
+            <li>2000年6月26日 科学家公布人类基因组工作草图，标志着人类在解读自身“生命之书”的路上迈出了重要一步。</li>
+            <br/>
+            <li>2000年12月14日 美英等国科学家宣布绘出拟南芥基因组的完整图谱，这是人类首次全部破译出一种植物的基因序列。</li>
+            <br/>
+            <li>2001年2月12日 中、美、日、德、法、英6国科学家和美国塞莱拉公司联合公布人类基因组图谱及初步分析结果。科学家首次公布人类基因组草图“基因信息”</li>
+            <br/>
+            
+            
+            
+          </p>
+        </ul>
+      </div>
+
+      
+         
+    </div>
+
+    
+  </div>
+
+  <div class="footer">
+    <h2>底部区域</h2>
+  </div>
+
+</body>
+</html>
